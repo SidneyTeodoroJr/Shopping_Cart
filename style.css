@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.shopping-cart {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.shopping-cart .content {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+    background-color: white;
+}
+
+.shopping-cart .items {
+    margin: auto;
+}
+
+.shopping-cart .items .product {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image {
+    padding-left: 1em;
+}
+
+.shopping-cart .items .product .info {
+    padding-top: 0px;
+    text-align: center;
+}
+
+.shopping-cart .items .product .info .product-name {
+    font-weight: 600;
+}
+
+.shopping-cart .items .product .info .product-name .product-info {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.shopping-cart .items .product .info .product-name .product-info .value {
+    font-weight: 400;
+}
+
+.shopping-cart .items .product .info .quantity .quantity-input {
+    margin: auto;
+    width: 80px;
+}
+
+.shopping-cart .items .product .info .price {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.shopping-cart .summary {
+    border-top: 15px solid #1271e6;
+    background-color: #f7fbff;
+    height: 100%;
+    padding: 30px;
+}
+
+.shopping-cart .summary h3 {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.shopping-cart .summary .summary-item:not(:last-of-type) {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2.8px solid rgba(180, 179, 179, 0.618);
+}
+
+.shopping-cart .summary .text {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.shopping-cart .summary .price {
+    font-size: 1em;
+    float: right;
+}
+
+.shopping-cart .summary button {
+    margin-top: 3.5em;
+}
+
+/* Tela menor */
+@media screen and (max-width: 600px) {
+    .shopping-cart {
+        padding: 0;
+        margin: 0;
+    }
+
+    .smartphone {
+        padding-top: 2em;
+    }
+
+    .product-name {
+        padding-top: 2.5em;
+        text-align: center;
+    }
+}
+
+/* Tela maior */
+@media screen and (min-width: 900px) {
+    .shopping-cart {
+        margin-top: 3.5rem;
+        padding: 3em;
+    }
+
+    body {
+        background: linear-gradient(-45deg, #043c9cc9, #038d869c, #1285af87, #2f4fefbd);
+        background-size: 400% 400%;
+        animation: gradient 30.5s ease infinite;
+        height: 100vh;
+    }
+
+    .smartphone {
+        padding-top: 1em;
+    }
+
+    .product-name {
+        padding-top: 0;
+        text-align: left;
+    }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
