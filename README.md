@@ -3,7 +3,7 @@
 
 <div align="center">
 <a href="https://sidneyteodorojr.github.io/Shopping_Cart/" target="_blank">
-<img src="https://github.com/SidneyTeodoroJr/Shopping_Cart/blob/main/shopping_card_screenshot.png" alt="gradient">
+<img src="https://github.com/SidneyTeodoroJr/Shopping_Cart/blob/main/shopping_card_screenshot.png" alt="Shopping Cart">
 </a>
 </div>
 </br> 
